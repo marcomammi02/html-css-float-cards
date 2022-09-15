@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+h1 {
+    color: rgb(229,49,112);
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 30px;
+    font-size: 2rem;    
+}
+
+.container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text{
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(15,14,23);
+    color: white;
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card>img{
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.card>h2{
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+
+.card>p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card>a{
+    color: lightskyblue;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
